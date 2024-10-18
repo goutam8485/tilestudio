@@ -5,6 +5,35 @@ body {
     box-sizing: border-box;
 }
 
+/* Navigation Bar */
+nav {
+    background-color: #005f73;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
 header {
     background-color: #005f73;
     color: white;
@@ -12,17 +41,16 @@ header {
     text-align: center;
 }
 
-h1 {
-    margin: 0;
-}
-
-p {
-    margin-top: 10px;
-}
-
-#products {
+/* About Section */
+#about {
     padding: 20px;
     background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Products Section */
+#products {
+    padding: 20px;
     text-align: center;
 }
 
@@ -46,6 +74,7 @@ p {
     height: auto;
 }
 
+/* Contact Section */
 #contact {
     padding: 20px;
     text-align: center;
