@@ -40,6 +40,17 @@ header {
     padding: 1px 20px 1px;
     text-align: center;
 }
+header h1{
+    margin:0 ;
+    padding: 1px;
+    font-size: xx-large;
+}
+header h2{
+    margin: 0;
+    font-style: ;
+
+}
+
 
     
 
